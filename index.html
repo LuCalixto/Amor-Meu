@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f9e9e5" />
+  <meta name="description" content="Uma pequena história escrita com carinho para Nelson." />
+  <title>Entre tantos caminhos, eu escolhi você 🤍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <style>
+    :root{--paper:#fff9f5;--rose:#f2d5d1;--rose2:#e7b8b5;--wine:#78434a;--ink:#443538;--muted:#806c6c;--line:#e9d3ce;--shadow:0 18px 55px #8b55521c}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'DM Sans',sans-serif;background:radial-gradient(ellipse at 10% 8%,#fff 0,transparent 32%),linear-gradient(145deg,#f9e9e5,#fff8f3 45%,#f3ded9);overflow-x:hidden}
+    body:before{content:'♡';position:fixed;top:12%;left:5%;font-size:2rem;color:#c98d8b55;pointer-events:none;animation:float 7s ease-in-out infinite}body:after{content:'✿';position:fixed;right:5%;bottom:12%;font-size:2.5rem;color:#c98d8b55;pointer-events:none;animation:float 8s ease-in-out infinite reverse}
+    .progress{position:fixed;z-index:10;top:0;left:0;height:3px;width:0;background:var(--wine);transition:width .15s linear}.topbar{position:fixed;z-index:9;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:18px clamp(18px,5vw,60px);color:var(--wine);font-family:'Caveat',cursive;font-size:1.35rem;pointer-events:none}.topbar span:last-child{font-family:'DM Sans',sans-serif;font-size:.8rem;letter-spacing:.08em}
+    main{width:min(100% - 32px,780px);margin:auto}.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:90px 0 55px;position:relative}.hero-inner{max-width:600px;animation:rise 1s both}.eyebrow{color:var(--wine);font-size:.72rem;letter-spacing:.22em;text-transform:uppercase}.hero h1{font:500 clamp(2.8rem,9vw,5.4rem)/1.08 'Playfair Display',serif;margin:24px 0;color:#633b42}.hero h1 em{color:#b86d72;font-weight:500}.hero p{max-width:390px;margin:25px auto;color:var(--muted);line-height:1.85;font-size:.98rem}.ornament{color:#b86d72;font-size:1.8rem;letter-spacing:.3em;margin:20px 0}.btn{border:0;border-radius:999px;background:var(--wine);color:white;padding:14px 23px;font:500 .92rem 'DM Sans',sans-serif;cursor:pointer;box-shadow:0 8px 24px #78434a26;transition:transform .25s,background .25s}.btn:hover{transform:translateY(-3px);background:#935761}.hint{display:block;margin-top:40px;color:#9e8281;font-size:.75rem;letter-spacing:.06em}
+    .chapter{padding:75px 0;min-height:75vh;display:flex;align-items:center}.letter{position:relative;width:100%;background:#fffaf6e8;border:1px solid #fff;box-shadow:var(--shadow);padding:clamp(26px,6vw,55px);border-radius:4px 4px 18px 4px;transform:rotate(-.4deg)}.letter:before{content:'';position:absolute;inset:9px;border:1px solid #ead8d2;pointer-events:none}.letter>*{position:relative}.chapter:nth-of-type(even) .letter{transform:rotate(.45deg);background:#fff7f3ed}.number{font-size:.7rem;letter-spacing:.18em;color:#a37c7b;text-transform:uppercase}.letter h2{font:500 clamp(2rem,6vw,3.1rem)/1.16 'Caveat',cursive;color:var(--wine);margin:17px 0 23px}.letter p{font:400 1rem/1.95 'DM Sans',sans-serif;color:#59494a;margin:0 0 14px}.letter .handwritten{font:500 1.7rem/1.4 'Caveat',cursive;color:#a45d65;text-align:center;margin-top:25px}.heart{color:#b66b73;font-size:1.15rem;text-align:center;margin-top:20px}.photo-wrap{margin:30px auto 0;max-width:430px;padding:10px 10px 16px;background:#fff;box-shadow:0 10px 35px #774b4522;transform:rotate(1.3deg)}.photo-wrap img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:linear-gradient(135deg,#f4ded9,#fff8f3);color:#855d61;text-align:center}.photo-caption{text-align:center;font:500 1.45rem 'Caveat',cursive;color:var(--wine);padding-top:10px}.photo-help{font-size:.76rem!important;color:#927c7a!important;text-align:center;margin:10px 0 0!important}
+    .list{list-style:none;margin:20px 0 0;padding:0}.list li{padding:12px 0 12px 32px;position:relative;line-height:1.7;border-bottom:1px solid #eadbd6}.list li:before{content:'♡';position:absolute;left:2px;top:12px;color:#b66b73;font-size:1.2rem}.final{min-height:100svh;display:grid;place-items:center;text-align:center;padding:90px 0}.final-card{width:100%;padding:clamp(28px,7vw,65px) 20px;border-radius:12px;background:radial-gradient(ellipse at center,#fff8f7 0,#f8e0df 55%,#f4d4d2 100%);box-shadow:var(--shadow);position:relative;overflow:hidden}.final-card:before,.final-card:after{content:'✧  ♡  ✧';display:block;color:#bd8184;letter-spacing:.7em;font-size:1.2rem;animation:float 5s ease-in-out infinite}.final h2{font:500 clamp(2rem,6vw,3rem) 'Playfair Display',serif;color:var(--wine);margin:25px 0 12px}.final .sim{font:600 clamp(5rem,22vw,9rem)/1 'Playfair Display',serif;color:#ad5f69;margin:15px 0 25px;opacity:0;transform:scale(.7);transition:opacity .9s,transform .9s}.final.revealed .sim{opacity:1;transform:scale(1)}.final-copy{max-width:420px;margin:0 auto;color:#74565a;line-height:1.9}.final .btn{margin:18px auto 24px;display:inline-flex;align-items:center;justify-content:center;max-width:100%;white-space:normal;line-height:1.45}.final-copy{opacity:0;max-height:0;overflow:hidden;transition:opacity .7s ease,max-height .7s ease,margin .7s ease;margin:0 auto}.final.revealed .final-copy{opacity:1;max-height:260px;margin:0 auto}.afterword{display:none;max-width:420px;margin:28px auto 0;line-height:1.9;color:#744e55;animation:rise .8s both}.afterword.show{display:block}.footer{text-align:center;padding:0 0 40px;color:#a18482;font:500 1.3rem 'Caveat',cursive}
+    .reveal{opacity:0;transform:translateY(34px) scale(.985);filter:blur(2px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1),filter .9s ease;will-change:opacity,transform}
+    .reveal.visible{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}
+    .chapter .letter{transition:box-shadow .5s ease,border-color .5s ease}
+    .chapter.visible .letter{box-shadow:0 22px 65px #8b555228;border-color:#fff}
+    .ambient-heart{position:fixed;z-index:1;left:var(--x);bottom:-32px;color:var(--heart-color);font-size:var(--size);pointer-events:none;opacity:0;animation:heart-rise var(--duration) ease-in-out forwards;filter:drop-shadow(0 2px 4px #b66b7310)}
+    @keyframes heart-rise{0%{transform:translate3d(0,0,0) scale(.65) rotate(-8deg);opacity:0}12%{opacity:var(--peak)}70%{opacity:calc(var(--peak)*.7)}100%{transform:translate3d(var(--drift),-110vh,0) scale(1.08) rotate(12deg);opacity:0}}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}@keyframes float{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-12px) rotate(4deg)}}
+    @media(max-width:600px){.chapter{padding:54px 0;min-height:auto}.letter{padding:28px 23px}.letter p{font-size:.96rem;line-height:1.85}.hero{padding-top:100px}.hint{margin-top:30px}.final{padding:72px 0}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none;filter:none}}
+  
+    @media(max-width:360px){.topbar span:last-child{display:none}.letter{padding:23px 17px}.final-card{padding:30px 14px}.final .btn{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="topbar"><span>Para você, Nelson ♡</span><span>UMA CARTINHA DIGITAL</span></header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-inner">
+        <div class="eyebrow">uma história escrita com carinho</div>
+        <h1>Entre tantos<br>caminhos,<br><em>eu escolhi você.</em></h1>
+        <div class="ornament">— ♡ —</div>
+        <p>Tem algumas coisas que eu queria te contar com calma… então preparei esse cantinho só nosso. Leia sem pressa. 🤍</p>
+        <button class="btn" onclick="document.querySelector('#capitulo1').scrollIntoView({behavior:'smooth'})">♡ Começar a história</button>
+        <span class="hint">feito com carinho, especialmente para você ↓</span>
+      </div>
+    </section>
+
+    <section class="chapter reveal" id="capitulo1"><article class="letter"><div class="number">01 / O começo</div><h2>O primeiro olhar…</h2><p>Desde o dia em que fui pregar na sua igreja e olhei para você, senti uma onda de sentimentos que eu nunca tinha sentido daquela forma.</p><p>Depois daquele dia, eu já não conseguia parar de pensar em você. Tentei evitar, ignorar, fingir que não era nada… mas, de algum jeito, você continuava aparecendo nos meus pensamentos.</p><p>Na época, eu não imaginava aonde tudo isso poderia chegar. Só sabia que alguma coisa em mim tinha mudado.</p><div class="heart">♡</div></article></section>
+
+    <section class="chapter reveal"><article class="letter"><div class="number">02 / Sem perceber</div><h2>Você virou minha âncora.</h2><p>Comecei a perceber que você também me olhava. No início, achei que fosse coisa da minha cabeça, uma impressão minha…</p><p>Mas, aos poucos, passei a procurar o seu olhar. Ele se tornou uma espécie de âncora no meio de tanta coisa que eu sentia: algo que me acalmava e me fazia sentir segura.</p><p>Talvez você nem soubesse, mas a sua presença já me fazia bem antes mesmo de eu conseguir explicar o porquê.</p><div class="heart">♡</div></article></section>
+
+    <section class="chapter reveal"><article class="letter"><div class="number">03 / Um dia especial</div><h2>O dia em que eu percebi…</h2><p>No dia do evangelismo, quando cuidamos das crianças, percebi o quanto era bom estar com você. Foi ali que senti de um jeito diferente como sua companhia podia ser confortável, segura e aconchegante.</p><p>Ver seu cuidado, seu jeito com as crianças e a forma como você se envolve com as pessoas me fez enxergar ainda mais coisas bonitas em você.</p><p>Não foi um único grande gesto. Foram detalhes, atitudes e aquela sensação boa de estar perto.</p><div class="heart">♡</div></article></section>
+
+    <section class="chapter reveal"><article class="letter"><div class="number">04 / Dias mais leves</div><h2>Você trouxe leveza.</h2><p>Quando começamos a conversar, meus dias foram ficando mais felizes e leves. Passei a ter mais motivos para sorrir e pequenas coisas para esperar com carinho.</p><p>E tem uma coisa que ainda me faz sorrir: minha família já criou carinho por você sem nem mesmo você ter vindo aqui. Acho bonito pensar que, de algum jeito, você já encontrou espaço na minha vida.</p><p>O presente que você me deu trouxe uma felicidade enorme para dentro de mim. E o nosso abraço… ah, o nosso abraço.</p><p class="handwritten">Seu abraço se tornou meu lugar favorito no mundo. ♡</p></article></section>
+
+    <section class="chapter reveal"><article class="letter"><div class="number">05 / Uma parte sincera</div><h2>Tem algo que quero que você saiba…</h2><p>Às vezes, eu me pergunto como você consegue gostar de mim. Não porque eu não queira acreditar no que existe entre nós, mas porque ainda estou aprendendo a mostrar o que sinto.</p><p>Eu tenho dificuldades para demonstrar meus sentimentos. Por muito tempo, não tive muita oportunidade de aprender como fazer isso, e algumas coisas que sinto acabam ficando guardadas, mesmo quando são importantes para mim.</p><p>Não quero que meu jeito mais quieto ou minhas dificuldades façam você duvidar do carinho que tenho por você. Você merece saber e sentir que é querido.</p><div class="heart">♡</div></article></section>
+
+    <section class="chapter reveal"><article class="letter"><div class="number">06 / O que eu sinto</div><h2>Eu quero aprender com você.</h2><p>Não vou prometer que vou acertar tudo desde o começo. Mas quero que você saiba que estou disposta a aprender, mudar o que for preciso, me adaptar e encontrar maneiras de demonstrar melhor o que existe aqui dentro.</p><p>Quero te ouvir quando alguma coisa te deixar inseguro, conversar quando algo não estiver claro e cuidar para que você não precise adivinhar o que sinto por você.</p><p>Quero te amar no dia especial e no dia comum, nas conversas longas e nos momentos quietinhos. Quero aprender a amar você do jeito que você também consiga sentir esse amor.</p><p class="handwritten">Não quero apenas que você saiba. Quero que você se sinta amado. 🤍</p></article></section>
+
+    <section class="chapter reveal"><article class="letter"><div class="number">07 / Um pedacinho de nós</div><h2>Quando penso em você…</h2><p>Penso no seu jeito, nas nossas conversas, nas brincadeiras, no cuidado que você demonstra e na tranquilidade que sinto cada vez mais ao seu lado.</p><p>Penso em tudo o que ainda podemos descobrir um sobre o outro, nas lembranças que ainda vamos criar e na oportunidade de construir algo bonito, com respeito, fé, diálogo e carinho.</p><p>Eu não espero uma história perfeita. Quero uma história verdadeira — em que a gente possa crescer, aprender e escolher cuidar um do outro, um dia de cada vez.</p>
+      <!-- A foto foi removida conforme solicitado. Este capítulo permanece apenas com o texto. -->
+     
+    <section class="final reveal" id="final"><div class="final-card"><div class="eyebrow">Nelson, depois de tudo isso…</div><h2>Minha resposta é</h2><button class="btn" id="revealBtn" onclick="revealAnswer()">♡ Tenho uma última coisa para te dizer</button><div class="sim" id="sim">SIM!</div><p class="final-copy">Sim para nós. Para continuar conhecendo você, construir nossa história com carinho e descobrir tudo o que ainda podemos viver juntos — com Deus no centro e muito amor no caminho.</p><div class="afterword" id="afterword"><p>Obrigada por chegar tão pertinho de mim e por despertar sentimentos tão bonitos. Eu ainda estou aprendendo a demonstrar tudo o que sinto, mas quero fazer isso com você, um dia de cada vez.</p><p>Quero que a gente converse, ria, cresça e cuide um do outro. Que, mesmo quando as palavras faltarem, a gente tenha coragem de perguntar, ouvir e compreender.</p><p><strong>Eu escolho você, Nelson. Hoje, amanhã e em cada novo dia em que a gente decidir continuar escolhendo um ao outro. ♡</strong></p><div class="ornament">— ♡ —</div><p style="font-family:'Caveat',cursive;font-size:1.7rem">Com carinho, Luiza 🤍</p></div></div></section>
+    <footer class="footer">feito com carinho, só para você ♡</footer>
+  </main>
+  <script>
+    const progress = document.getElementById('progress');
+    function updateProgress(){const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?scrollY/max*100:0)+'%'}
+    addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    }),{root:null,rootMargin:'0px 0px -10% 0px',threshold:0.08});
+    document.querySelectorAll('.reveal').forEach((el,index)=>{
+      el.style.transitionDelay = index === 0 ? '0ms' : '80ms';
+      observer.observe(el);
+    });
+
+    // Pequenos corações surgem e desaparecem suavemente, sem atrapalhar a leitura.
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function ambientHearts(){
+      if(reduceMotion || document.hidden) return;
+      const h=document.createElement('span');
+      h.className='ambient-heart';
+      h.textContent=Math.random()>.28?'♡':'♥';
+      h.style.setProperty('--x',(5+Math.random()*90)+'vw');
+      h.style.setProperty('--size',(10+Math.random()*12)+'px');
+      h.style.setProperty('--duration',(7+Math.random()*6)+'s');
+      h.style.setProperty('--drift',((Math.random()*70)-35)+'px');
+      h.style.setProperty('--peak',(0.18+Math.random()*0.16).toFixed(2));
+      h.style.setProperty('--heart-color',Math.random()>.5?'#b66b7370':'#d69b9b70');
+      document.body.appendChild(h);
+      h.addEventListener('animationend',()=>h.remove(),{once:true});
+    }
+    setInterval(ambientHearts,1500);
+    function revealAnswer(){document.getElementById('final').classList.add('revealed');document.getElementById('afterword').classList.add('show');document.getElementById('revealBtn').textContent='♡ Eu te escolho';document.getElementById('revealBtn').disabled=true;hearts();}
+    function hearts(){for(let i=0;i<18;i++){const h=document.createElement('span');h.textContent=['♡','♥','✧'][i%3];h.style.cssText=`position:fixed;z-index:20;left:${Math.random()*100}vw;top:100vh;color:${i%2?'#b66b73':'#d69b9b'};font-size:${14+Math.random()*20}px;pointer-events:none;transition:transform ${2+Math.random()*2}s ease-out,opacity 3s;`;document.body.appendChild(h);requestAnimationFrame(()=>{h.style.transform=`translateY(-${60+Math.random()*80}vh) rotate(${Math.random()*100-50}deg)`;h.style.opacity='0'});setTimeout(()=>h.remove(),4200)}}
+  </script>
+</body>
+</html>
